@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Animation Hover</title>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      opacity: 0.6;
+      transition: background-color 200ms ease-in, opacity 200ms ease-in;
+    }
+
+    .box:hover {
+      background-color: #fddb3a;
+      opacity: 1;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <img src="download.webp" alt="Random Image">
+  </div>
+
+</body>
+</html>
